@@ -1,0 +1,19 @@
+# DDEV
+.ddev/.ddev-docker-compose-*
+.ddev/db_snapshots
+.ddev/.homeadditions
+
+# Drupal vendor/contrib
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Files directory
+/web/sites/*/files/
+
+# Settings
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
