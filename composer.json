@@ -21,6 +21,9 @@
         "drupal/core-recipe-unpack": "^11.3",
         "drupal/core-recommended": "^11.3",
         "drupal/devel": "^5.5",
+        "drupal/dropzonejs": "^2.11",
+        "drupal/metatag": "^2.2",
+        "drupal/token": "^1.17",
         "drupal/webform": "^6.3",
         "drush/drush": "^13.7"
     },
