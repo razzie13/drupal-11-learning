@@ -11,6 +11,9 @@
 /web/profiles/contrib/
 /web/libraries/
 
+# Custom modules with their own git repos
+/web/modules/custom/webform_privacy_statement/
+
 # Files directory
 /web/sites/*/files/
 
