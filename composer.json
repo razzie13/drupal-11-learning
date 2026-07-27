@@ -25,6 +25,8 @@
         "drupal/devel": "^5.5",
         "drupal/dropzonejs": "^2.11",
         "drupal/metatag": "^2.2",
+        "drupal/metatag_webform": "^1.0",
+        "drupal/prepopulate": "^2.5",
         "drupal/token": "^1.17",
         "drupal/webform": "^6.3",
         "drush/drush": "^13.7"

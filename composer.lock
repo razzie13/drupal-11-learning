@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c054ad5777e29c99e2f8d578eeb3c631",
+    "content-hash": "60b16cf96b666949af47818f0b2f2b73",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2095,6 +2095,59 @@
             }
         },
         {
+            "name": "drupal/metatag_webform",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/metatag_webform.git",
+                "reference": "1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/metatag_webform-1.0.5.zip",
+                "reference": "1.0.5",
+                "shasum": "80ee7f85c83a8e075d8c981cdb3dd36111f91b43"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11",
+                "drupal/metatag": "*",
+                "drupal/webform": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.5",
+                    "datestamp": "1711305844",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Kovrigin (a.kovrigin)",
+                    "homepage": "https://www.drupal.org/u/akovrigin",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides the ability to add metatags for webforms.",
+            "homepage": "https://www.drupal.org/project/metatag_webform",
+            "keywords": [
+                "Drupal",
+                "Metatag",
+                "Webform"
+            ],
+            "support": {
+                "source": "https://cgit.drupalcode.org/metatag_webform",
+                "issues": "https://drupal.org/project/issues/metatag_webform"
+            }
+        },
+        {
             "name": "drupal/nouislider_js",
             "version": "15.8.1",
             "source": {
@@ -2122,6 +2175,74 @@
                 "source": "https://git.drupalcode.org/project/nouislider_js/-/tree/15.8.0"
             },
             "time": "2025-01-03T10:53:20+00:00"
+        },
+        {
+            "name": "drupal/prepopulate",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/prepopulate.git",
+                "reference": "8.x-2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/prepopulate-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "9efbac5cba063c79b0cfc4f82bcd87a31e0b123d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/inline_entity_form": "^3.0@rc",
+                "drupal/og": "^1.x-dev"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.5",
+                    "datestamp": "1732903418",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Heddn",
+                    "homepage": "https://www.drupal.org/u/heddn",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Jbrauer",
+                    "homepage": "https://www.drupal.org/u/jbrauer",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Eafarris",
+                    "homepage": "https://www.drupal.org/u/eafarris",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "FF1",
+                    "homepage": "https://www.drupal.org/u/ff1",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows form elements to be prepopulated from the URL.",
+            "homepage": "https://www.drupal.org/project/prepopulate",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/prepopulate",
+                "issues": "https://www.drupal.org/project/issues/prepopulate"
+            }
         },
         {
             "name": "drupal/token",
