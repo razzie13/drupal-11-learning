@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.3",
+        "drupal/admin_toolbar": "^3.6",
         "drupal/better_exposed_filters": "^7.1",
         "drupal/chosen": "^5.0",
         "drupal/core-composer-scaffold": "^11.3",
@@ -26,6 +27,7 @@
         "drupal/dropzonejs": "^2.11",
         "drupal/metatag": "^2.2",
         "drupal/metatag_webform": "^1.0",
+        "drupal/pathauto": "^1.15",
         "drupal/prepopulate": "^2.5",
         "drupal/token": "^1.17",
         "drupal/webform": "^6.3",
