@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.3",
         "drupal/admin_toolbar": "^3.6",
+        "drupal/base_field_override_ui": "^1.2",
         "drupal/better_exposed_filters": "^7.1",
         "drupal/chosen": "^5.0",
         "drupal/core-composer-scaffold": "^11.3",
@@ -28,6 +29,7 @@
         "drupal/metatag": "^2.2",
         "drupal/metatag_webform": "^1.0",
         "drupal/pathauto": "^1.15",
+        "drupal/pathologic": "^2.0",
         "drupal/prepopulate": "^2.5",
         "drupal/token": "^1.17",
         "drupal/webform": "^6.3",
